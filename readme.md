@@ -24,8 +24,8 @@ The objective of the game is to eliminate all of the opponent's pieces. The game
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/turn-based-grid-game.git
-    cd turn-based-grid-game
+    git clone https://github.com/Aadityaa2606/Aadityaa_Nagarajan_21BCE1964.git
+    cd server
     ```
 
 2. **Install dependencies:**
@@ -41,14 +41,27 @@ The objective of the game is to eliminate all of the opponent's pieces. The game
 
 ### Client Setup
 
-1. **Open the client in a web browser:**
+1. **Install client dependencies:**
+    Navigate to the `public` directory:
+    ```bash
+    cd client
+    npm install
+    ```
+
+2. **Run the client in development mode:**
+    ```bash
+    npm run dev
+    ```
+    This will start a development server for the client, allowing for hot-reloading during development.
+
+3. **Open the client in a web browser:**
     Navigate to `http://localhost:3000` in your web browser.
 
-2. **Join the game:**
+4. **Join the game:**
     - Enter a username and click "Join Game".
     - If the room is full (more than two players), you'll receive a "Room Full" message.
 
-3. **Playing the game:**
+5. **Playing the game:**
     - Place your pieces on the starting row.
     - Take turns with your opponent to move pieces across the board.
     - The game will automatically switch turns after each move.
@@ -58,4 +71,3 @@ The objective of the game is to eliminate all of the opponent's pieces. The game
 
 - **No Role Assigned or Errors:** If you don't see role assignment or receive error messages, check the server logs for any issues.
 - **WebSocket Connection Issues:** Ensure your server is running and accessible at `http://localhost:3000`.
-
