@@ -129,7 +129,7 @@ export default function GamePage() {
                     ${rowIndex !== (playerRole === "player1" ? 4 : 0) && "bg-gray-300 cursor-not-allowed"} 
                     ${
                       cell && (rowIndex === (playerRole === "player1" ? 4 : 0) ? "bg-red-500" : "bg-green-500")
-                    } text-white h-[4rem] w-[6rem]`}
+                    } text-white h-[50px] w-[80px]`}
                 disabled={rowIndex !== (playerRole === "player1" ? 4 : 0) || cell !== ""}
                 onClick={() => handleCellClick(rowIndex, colIndex)}
               >
