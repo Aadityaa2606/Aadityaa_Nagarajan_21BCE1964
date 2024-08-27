@@ -13,6 +13,19 @@ This is a two-player, turn-based strategy game played on a 5x5 grid. Players pla
 
 The objective of the game is to eliminate all of the opponent's pieces. The game ends when one player has no pieces left on the board.
 
+## Screenshots
+
+Below are some screenshots of the game to give you a visual idea of how it looks and plays.
+
+### Game Start
+![Game Start Screenshot](./ss1.png)
+
+### Piece Placement
+![Piece Placement Screenshot](./ss2.png)
+
+### In-Game Action
+![In-Game Action Screenshot](./ss3..png)
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -71,3 +84,5 @@ The objective of the game is to eliminate all of the opponent's pieces. The game
 
 - **No Role Assigned or Errors:** If you don't see role assignment or receive error messages, check the server logs for any issues.
 - **WebSocket Connection Issues:** Ensure your server is running and accessible at `http://localhost:3000`.
+
+
